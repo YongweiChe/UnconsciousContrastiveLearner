@@ -1,4 +1,4 @@
-### Simplified Instructions when running on Della
+### Simplified Installation Instructions 
 ```
 module load anaconda3/2023.3
 conda create -n env python=3.10
