@@ -1,0 +1,9 @@
+wandb
+__pycache__
+.ipynb_checkpoints
+slurm-*
+models
+old
+saved_models
+streets
+*.lprof
