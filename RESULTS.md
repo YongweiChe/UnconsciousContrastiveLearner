@@ -43,6 +43,6 @@ Recall@1 over 100 trials of 25 test candidates (chance 0.04), using each pretrai
 | CLIP image ↔ CLAP audio via 48.6k-caption pool | 0.05 | 0.35 | – |
 | LanguageBind image ↔ audio via ontology | 0.37 | 0.26 | – |
 | LanguageBind image ↔ audio via 48.6k-caption pool | 0.40 | 0.31 | – |
-| ImageBind + CLAP, image ↔ text via audio (App. C.2) | – | - | 0.41 (OpenCLIP ViT-H in ImageBind), 0.36 (CLIP ViT-B-32) |
-| ImageBind + CLIP, audio ↔ text via images (App. C.2) | - | 0.22 | 0.74 (CLAP) |
-| ImageBind, audio ↔ text via images | - | 0.19 | 0.52 (ImageBind) |
+| ImageBind + CLAP, image ↔ text via audio (App. C.2) | – | 0.36 | 0.41 (OpenCLIP ViT-H in ImageBind), 0.36 (CLIP ViT-B-32) |
+| ImageBind + CLIP, audio ↔ text via images (App. C.2) | 0.50 | 0.22 | 0.74 (CLAP) |
+| ImageBind, audio ↔ text via images | 0.52 | 0.19 | – |
