@@ -1,0 +1,18 @@
+[project]
+name = "unconscious-contrastive-learner"
+version = "0.2.0"
+license = {text = "MIT"}
+description = "Code for 'The \"Law\" of the Unconscious Contrastive Learner: Probabilistic Alignment of Unpaired Modalities'"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0", "numpy", "scipy", "matplotlib"]
+
+[project.optional-dependencies]
+real-world = ["tqdm", "pillow", "open_clip_torch", "laion-clap", "opencv-python", "moviepy<2", "yt-dlp"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["ucl", "didactic", "real_world", "rl"]

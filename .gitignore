@@ -1,0 +1,10 @@
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+results/
+cache/
+cache_dir/
+data/
+.checkpoints/
+*.swp
+.DS_Store
